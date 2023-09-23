@@ -23,7 +23,7 @@ const CreatePost = () => {
       try {
         setgeneratingImage(true);
         const response = await fetch(
-          "https://dall-e2-0.vercel.app/api/v1/dalle",
+          "https://dall-e2-0-api.vercel.app/api/v1/dalle",
           {
             method: "POST",
             headers: {
@@ -55,7 +55,7 @@ const CreatePost = () => {
 
       try {
         const response = await fetch(
-          "https://dall-e2-0.vercel.app/api/v1/post",
+          "https://dall-e2-0-api.vercel.app/api/v1/post",
           {
             method: "POST",
             headers: {
